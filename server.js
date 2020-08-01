@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8080;
 
 const routes = require('./routes/api');
 
-const MONGODB_URI = 'your mongo db cluster uri ';
+const MONGODB_URI = 'your mongo db cluster uri';
 
 mongoose.connect(process.env.MONGODB_URI || MONGODB_URI, {
 	useNewUrlParser: true,
